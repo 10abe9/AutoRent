@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.qdaidu.autorent.fragments.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_choiceRegOrLogFragment"
+            app:destination="@id/choiceRegOrLogFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_noInternetFragment"
+            app:destination="@id/noInternetFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_onBoarding1Fragment"
+            app:destination="@id/onBoarding1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/choiceRegOrLogFragment"
+        android:name="com.qdaidu.autorent.fragments.ChoiceRegOrLogFragment"
+        android:label="ChoiceRegOrLogFragment"
+        tools:layout="@layout/choice_reg_or_log">
+        <action
+            android:id="@+id/action_choiceRegOrLogFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
+        <action
+            android:id="@+id/action_choiceRegOrLogFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noInternetFragment"
+        android:name="com.qdaidu.autorent.fragments.NoInternetFragment"
+        android:label="NoInternetFragment"
+        tools:layout="@layout/no_internet">
+        <action
+            android:id="@+id/action_noInternetFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.qdaidu.autorent.fragments.LogInFragment"
+        android:label="LogInFragment"
+        tools:layout="@layout/log_in"/>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.qdaidu.autorent.fragments.RegistrationFragment"
+        android:label="RegistrationFragment"
+        tools:layout="@layout/registration_fragment"/>
+    <fragment
+        android:id="@+id/onBoarding1Fragment"
+        android:name="com.qdaidu.autorent.fragments.OnBoarding1Fragment"
+        android:label="OnBoarding1Fragment"
+        tools:layout="@layout/onboarding_1">
+        <action
+            android:id="@+id/action_onBoarding1Fragment_to_onBoarding2Fragment"
+            app:destination="@id/onBoarding2Fragment" />
+        <action
+            android:id="@+id/action_onBoarding1Fragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoarding2Fragment"
+        android:name="com.qdaidu.autorent.fragments.OnBoarding2Fragment"
+        android:label="OnBoarding2Fragment"
+        tools:layout="@layout/onboarding_2">
+        <action
+            android:id="@+id/action_onBoarding2Fragment_to_onBoarding3Fragment"
+            app:destination="@id/onBoarding3Fragment" />
+        <action
+            android:id="@+id/action_onBoarding2Fragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoarding3Fragment"
+        android:name="com.qdaidu.autorent.fragments.OnBoarding3Fragment"
+        android:label="OnBoarding3Fragment"
+        tools:layout="@layout/onboarding_3">
+        <action
+            android:id="@+id/action_onBoarding3Fragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>

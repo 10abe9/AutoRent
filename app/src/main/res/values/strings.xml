@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto Rent</string>
+    <string name="auto_rent">Auto Rent</string>
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="try_again">Try again</string>
+    <string name="help_find_next_drive">We will help you find your next drive</string>
+    <string name="image_peoples_next_to_car">image peoples next to car</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="log_in_to_your_account">Log in to your account</string>
+    <string name="please_input_your_data">Please input your credentials</string>
+    <string name="e_main">E-Main</string>
+    <string name="password">Password</string>
+    <string name="to_log_in">Sign up</string>
+    <string name="input_password">Input password</string>
+    <string name="input_e_mail">Input E-Mail</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="check_connection_and_try_again">Check your connection and try again</string>
+    <string name="car_with_money">car with money</string>
+    <string name="car_rent">Car rent</string>
+    <string name="open_for_you_comfortable_way_to_drive">Discover a convenient way to travel</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="car_with_stars">car with stars</string>
+    <string name="safe_and_comfortable">Safe and comfortable</string>
+    <string name="rent_car_and_enjoy_comfortable">Rent a car and enjoy its convenience</string>
+    <string name="car_in_phone">car in phone</string>
+    <string name="best_offers">Best offers</string>
+    <string name="select_likely_car">Choose your favorite among hundreds of available cars</string>
+    <string name="go">Go</string>
+
+</resources>

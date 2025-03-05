@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto Rent</string>
+    <string name="auto_rent">Аренда авто</string>
+    <string name="no_internet_connection">Нет подключения к интернету</string>
+    <string name="try_again">Попробовать снова</string>
+    <string name="help_find_next_drive">Поможем найти твою следующую поездку</string>
+    <string name="image_peoples_next_to_car">картинка люди у машины</string>
+    <string name="log_in">Войти</string>
+    <string name="log_in_to_your_account">Войдите в аккаунт</string>
+    <string name="e_main">Электронная почта</string>
+    <string name="password">Пароль</string>
+    <string name="to_log_in">Зарегистрироваться</string>
+    <string name="input_password">Введите пароль</string>
+    <string name="check_connection_and_try_again">Проверьте подключение и повторите попытку</string>
+    <string name="car_with_money">car with money</string>
+    <string name="skip">Пропустить</string>
+    <string name="next">Далее</string>
+    <string name="car_with_stars">car with stars</string>
+    <string name="safe_and_comfortable">Безопасно и удобно</string>
+    <string name="car_in_phone">car in phone</string>
+    <string name="best_offers">Лучшие предложения</string>
+    <string name="select_likely_car">Выбирай понравившееся среди сотен доступных автомобилей</string>
+    <string name="go">Поехали</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="please_input_your_data">Пожалуйста, введите свои данные</string>
+    <string name="input_e_mail">Введите электронную почту</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="car_rent">Аренда автомобилей</string>
+    <string name="open_for_you_comfortable_way_to_drive">Открой для себя удобный способ передвижения</string>
+    <string name="rent_car_and_enjoy_comfortable">Арендуй автомобиль и наслаждайся его удобством</string>
+
+</resources>
