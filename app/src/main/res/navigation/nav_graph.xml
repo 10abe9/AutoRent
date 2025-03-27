@@ -27,8 +27,8 @@
             android:id="@+id/action_choiceRegOrLogFragment_to_logInFragment"
             app:destination="@id/logInFragment" />
         <action
-            android:id="@+id/action_choiceRegOrLogFragment_to_registrationFragment"
-            app:destination="@id/registrationFragment" />
+            android:id="@+id/action_choiceRegOrLogFragment_to_registrationFragment1"
+            app:destination="@id/registrationFragment1" />
     </fragment>
     <fragment
         android:id="@+id/noInternetFragment"
@@ -44,11 +44,6 @@
         android:name="com.qdaidu.autorent.fragments.LogInFragment"
         android:label="LogInFragment"
         tools:layout="@layout/log_in"/>
-    <fragment
-        android:id="@+id/registrationFragment"
-        android:name="com.qdaidu.autorent.fragments.RegistrationFragment"
-        android:label="RegistrationFragment"
-        tools:layout="@layout/registration_fragment"/>
     <fragment
         android:id="@+id/onBoarding1Fragment"
         android:name="com.qdaidu.autorent.fragments.OnBoarding1Fragment"
@@ -82,4 +77,48 @@
             android:id="@+id/action_onBoarding3Fragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/registrationFragment1"
+        android:name="com.qdaidu.autorent.fragments.RegistrationFragment1"
+        android:label="RegistrationFragment1"
+        tools:layout="@layout/registration_fragment1">
+
+        <action
+            android:id="@+id/action_registrationFragment1_to_registrationFragment2"
+            app:destination="@id/registrationFragment2" />
+        <action
+            android:id="@+id/action_registrationFragment1_to_choiceRegOrLogFragment"
+            app:destination="@id/choiceRegOrLogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment2"
+        android:name="com.qdaidu.autorent.fragments.RegistrationFragment2"
+        android:label="RegistrationFragment2"
+        tools:layout="@layout/registration_fragment2">
+
+        <action
+            android:id="@+id/action_registrationFragment2_to_registrationFragment3"
+            app:destination="@id/registrationFragment3" />
+        <action
+            android:id="@+id/action_registrationFragment2_to_registrationFragment1"
+            app:destination="@id/registrationFragment1" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment3"
+        android:name="com.qdaidu.autorent.fragments.RegistrationFragment3"
+        android:label="RegistrationFragment3"
+        tools:layout="@layout/registration_fragment3">
+        <action
+            android:id="@+id/action_registrationFragment3_to_registrationFragment2"
+            app:destination="@id/registrationFragment2" />
+        <action
+            android:id="@+id/action_registrationFragment3_to_registrationFragment4"
+            app:destination="@id/registrationFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment4"
+        android:name="com.qdaidu.autorent.fragments.RegistrationFragment4"
+        android:label="RegistrationFragment4"
+        tools:layout="@layout/registration_fragment4"/>
+
 </navigation>

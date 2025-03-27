@@ -8,7 +8,7 @@
     <string name="image_peoples_next_to_car">картинка люди у машины</string>
     <string name="log_in">Войти</string>
     <string name="log_in_to_your_account">Войдите в аккаунт</string>
-    <string name="e_main">Электронная почта</string>
+    <string name="e_mail">Электронная почта</string>
     <string name="password">Пароль</string>
     <string name="to_log_in">Зарегистрироваться</string>
     <string name="input_password">Введите пароль</string>
@@ -26,8 +26,26 @@
     <string name="please_input_your_data">Пожалуйста, введите свои данные</string>
     <string name="input_e_mail">Введите электронную почту</string>
     <string name="forgot_password">Забыли пароль?</string>
+    <string name="repeat_password">Повторите пароль</string>
     <string name="car_rent">Аренда автомобилей</string>
     <string name="open_for_you_comfortable_way_to_drive">Открой для себя удобный способ передвижения</string>
     <string name="rent_car_and_enjoy_comfortable">Арендуй автомобиль и наслаждайся его удобством</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="agree_with_policy">Я соголасен с условиями обслуживания и политикой конфиденциальности</string>
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+    <string name="second_name">Отчество</string>
+    <string name="birth_date">Дата рождения</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="adding_photo_help">Добавление фото поможет владельцам и арендаторам узнать друг друга.</string>
+    <string name="icense_number">Driver\'s license number</string>
+    <string name="date_issue">Date of issue</string>
+    <string name="upload_license_photo">Upload license photo</string>
+    <string name="upload_passport_photo">Upload passport photo</string>
+    <string name="use_with_pleasure">Use it with pleasure</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="successfull_registration">You have successfully registered. Processing of personal data will take about two hours</string>
 
 </resources>

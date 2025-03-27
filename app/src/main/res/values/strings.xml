@@ -10,12 +10,13 @@
     <string name="sign_up">Sign up</string>
     <string name="log_in_to_your_account">Log in to your account</string>
     <string name="please_input_your_data">Please input your credentials</string>
-    <string name="e_main">E-Main</string>
+    <string name="e_mail">E-Mail</string>
     <string name="password">Password</string>
     <string name="to_log_in">Sign up</string>
     <string name="input_password">Input password</string>
     <string name="input_e_mail">Input E-Mail</string>
     <string name="forgot_password">Forgot password?</string>
+    <string name="repeat_password">Repeat password</string>
     <string name="check_connection_and_try_again">Check your connection and try again</string>
     <string name="car_with_money">car with money</string>
     <string name="car_rent">Car rent</string>
@@ -29,5 +30,23 @@
     <string name="best_offers">Best offers</string>
     <string name="select_likely_car">Choose your favorite among hundreds of available cars</string>
     <string name="go">Go</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="create_account">Create account</string>
+    <string name="agree_with_policy">I agree with the terms of service and privacy policy</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="second_name">Second name</string>
+    <string name="birth_date">Birth date</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="adding_photo_help">Adding photos will help owners and tenants get to know each other.</string>
+    <string name="icense_number">Driver\'s license number</string>
+    <string name="date_issue">Date of issue</string>
+    <string name="upload_license_photo">Upload license photo</string>
+    <string name="upload_passport_photo">Upload passport photo</string>
+    <string name="use_with_pleasure">Use it with pleasure</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="successfull_registration">You have successfully registered. Processing of personal data will take about two hours</string>
+
 
 </resources>
