@@ -119,6 +119,10 @@
         android:id="@+id/registrationFragment4"
         android:name="com.qdaidu.autorent.fragments.RegistrationFragment4"
         android:label="RegistrationFragment4"
-        tools:layout="@layout/registration_fragment4"/>
+        tools:layout="@layout/registration_fragment4">
+        <action
+            android:id="@+id/action_registrationFragment4_to_logInFragment"
+            app:destination="@id/logInFragment" />
+    </fragment>
 
 </navigation>

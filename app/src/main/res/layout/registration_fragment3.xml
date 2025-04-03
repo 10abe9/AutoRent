@@ -37,8 +37,10 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
+        android:maxLength="10"
         android:hint="0000000000"
         android:inputType="text"
+        android:maxEms="@integer/material_motion_duration_long_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -142,6 +144,8 @@
         android:id="@+id/imageView3"
         android:layout_width="35dp"
         android:layout_height="27dp"
+        android:focusable="false"
+        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:srcCompat="@drawable/add_photo" />
@@ -156,6 +160,8 @@
         android:ems="10"
         android:hint="@string/dd_mm_yyyy"
         android:inputType="date"
+        android:clickable="true"
+        android:focusable="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText" />
@@ -166,6 +172,8 @@
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
+        android:focusable="false"
+        android:clickable="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextDate2"
         app:srcCompat="@drawable/add_license_photo" />
@@ -176,6 +184,8 @@
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
+        android:focusable="false"
+        android:clickable="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
         app:srcCompat="@drawable/add_license_photo" />

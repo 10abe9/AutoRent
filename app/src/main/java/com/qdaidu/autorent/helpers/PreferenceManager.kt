@@ -9,8 +9,21 @@ class PreferenceManager(context: Context) {
 
     companion object {
         private const val isFirstInit = "isFirstInit"
+        private const val wasRegistred = "wasRegistred"
+
 
     }
+
+    fun getWasRegistred():Boolean{
+        return preferences.getBoolean(wasRegistred, false)
+    }
+
+    fun setWasRegistred(){
+        val editor = preferences.edit()
+        editor.putBoolean(wasRegistred, true)
+        editor.apply()
+    }
+
 
     fun getIsFirstInit():Boolean{
         return preferences.getBoolean(isFirstInit, true)
