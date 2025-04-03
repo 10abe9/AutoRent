@@ -7,7 +7,6 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.qdaidu.autorent.R
-import com.qdaidu.autorent.database.SuperbaseConnection
 import com.qdaidu.autorent.databinding.RegistrationFragment1Binding
 import com.qdaidu.autorent.databinding.RegistrationFragment4Binding
 import com.qdaidu.autorent.helpers.PreferenceManagerData

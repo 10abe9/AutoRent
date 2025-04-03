@@ -43,7 +43,14 @@
         android:id="@+id/logInFragment"
         android:name="com.qdaidu.autorent.fragments.LogInFragment"
         android:label="LogInFragment"
-        tools:layout="@layout/log_in"/>
+        tools:layout="@layout/log_in">
+        <action
+            android:id="@+id/action_logInFragment_to_registrationFragment1"
+            app:destination="@id/registrationFragment1" />
+        <action
+            android:id="@+id/action_logInFragment_to_switcherFragment3"
+            app:destination="@id/switcherFragment3" />
+    </fragment>
     <fragment
         android:id="@+id/onBoarding1Fragment"
         android:name="com.qdaidu.autorent.fragments.OnBoarding1Fragment"
@@ -123,6 +130,39 @@
         <action
             android:id="@+id/action_registrationFragment4_to_logInFragment"
             app:destination="@id/logInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/switcherFragment1"
+        android:name="com.qdaidu.autorent.fragments.SwitcherFragment1"
+        android:label="SwitcherFragment1" >
+        <action
+            android:id="@+id/action_switcherFragment1_to_switcherFragment2"
+            app:destination="@id/switcherFragment2" />
+        <action
+            android:id="@+id/action_switcherFragment1_to_switcherFragment3"
+            app:destination="@id/switcherFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/switcherFragment2"
+        android:name="com.qdaidu.autorent.fragments.SwitcherFragment2"
+        android:label="SwitcherFragment2" >
+        <action
+            android:id="@+id/action_switcherFragment2_to_switcherFragment3"
+            app:destination="@id/switcherFragment3" />
+        <action
+            android:id="@+id/action_switcherFragment2_to_switcherFragment1"
+            app:destination="@id/switcherFragment1" />
+    </fragment>
+    <fragment
+        android:id="@+id/switcherFragment3"
+        android:name="com.qdaidu.autorent.fragments.SwitcherFragment3"
+        android:label="SwitcherFragment3" >
+        <action
+            android:id="@+id/action_switcherFragment3_to_switcherFragment1"
+            app:destination="@id/switcherFragment1" />
+        <action
+            android:id="@+id/action_switcherFragment3_to_switcherFragment2"
+            app:destination="@id/switcherFragment2" />
     </fragment>
 
 </navigation>
